@@ -49,7 +49,7 @@ permissions:
 jobs:
   to-build:
     name: ${{ matrix.multi_config }}
-    runs-on: ubuntu-latest
+    runs-on: ["self-hosted"]
     env:
       EXTRA_STR: _some
     strategy:
