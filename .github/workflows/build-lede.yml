@@ -80,7 +80,7 @@ jobs:
   to-build:
     name: build
     runs-on: [self-hosted, ubuntu-latest]
-    container: ubuntu-latest
+    container: ubuntu:latest
     env:
       EXTRA_STR: _some
     steps:
