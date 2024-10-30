@@ -79,8 +79,7 @@ permissions:
 jobs:
   to-build:
     name: build
-    runs-on: self-hosted
-    container: ubuntu:latest
+    runs-on: ubuntu-latest
     env:
       EXTRA_STR: _some
     steps:
